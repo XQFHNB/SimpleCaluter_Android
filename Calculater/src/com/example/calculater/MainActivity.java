@@ -110,6 +110,7 @@ public class MainActivity extends Activity implements OnClickListener  {
         case R.id.btn_9:
         case R.id.btn_point:
             if(needclear) {
+            	needclear=false;
                 str = "";
                 eText.setText("");
             }
